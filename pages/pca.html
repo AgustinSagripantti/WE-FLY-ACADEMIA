@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="asagripantti@gmail.com">
+    <link rel="icon" href="../assets/icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>We Fly Academia | PCA</title>
+    <style>
+        body {
+          position: relative;
+          margin: 0;
+          background-image: url('../assets/11.png'); 
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+
+        body::before {
+          content: "";
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.9); 
+          z-index: -1; 
+        }
+
+        section h2{
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px rgba(30, 184, 212, 0.6);  
+        }
+        section a{
+            font-size: 20px !important;
+            padding: 1% 2% !important;
+            background-color: #1eb8d4 !important;
+            box-shadow: 0 0 10px rgba(30, 184, 212, 0.8);
+            font-weight: 700 !important;
+            border: none;
+            outline: none;
+            margin-top: 50px !important;
+        }
+
+        section a:hover{
+            box-shadow: 0 0 20px rgba(30, 184, 212, 1), 0 0 40px rgba(30, 184, 212, 0.8);
+        }
+        .acordeon{
+            width: 100%;
+            padding: 20px;
+        }
+        .accordion-item{
+            border: none;
+            outline: none;
+            width: 50%;
+            
+        }
+        .acordeon h2{
+            color: #1eb8d4;
+            font-weight: 700;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px rgba(30, 184, 212, 0.6);    
+        }
+        .acordeon h2 span:not(.signo-pregunta-c){
+            color: #fff;
+        }
+        .accordion-body{
+            color: #000 !important;
+            background-color: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+        .accordion-header button{
+          background-color: #fff !important;
+          color: #000;
+          font-weight: 700;
+          border-bottom: 2px solid #ccc;
+          font-size: 20px;
+        }
+        .accordion-button:not(.collapsed) {
+          background-color: #1eb8d4 !important;
+          color: white !important; 
+          border: none;
+        }
+        .accordion-button:focus {
+          box-shadow: none !important; 
+          outline: none !important; 
+        }
+        .accordion-button:not(.collapsed)::after {
+          filter: brightness(0) invert(1); 
+        }
+        .accordion-button {
+          padding: 20px 1rem; 
+        }
+        .accordion-body {
+          font-size: 18px;
+        }
+        .signo-pregunta-c {
+          display: inline-block; 
+          transform: rotate(180deg); 
+        }
+    </style>
+</head>
+
+<body>
+    <section class="d-flex flex-column justify-content-start align-items-center" style="height: 100vh;" > <!--VIDEO-->
+        <h2 class="txt text-center mb-5 mt-4">PILOTO COMERCIAL DE AVION</h2>
+        <div class="video-container text-center mt-4" style="width: 100%;">
+            <iframe width="55%" height="450" src="https://www.youtube.com/embed/eRUbJEksCTI" frameborder="0" allowfullscreen style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 1);"></iframe>
+        </div>
+        <a href="https://wa.me/5493412283880?text=¡Hola!%20Me%20gustaría%20tener%20más%20información%20sobre%20el%20curso%20de%20" target="_blank" class="btn btn-success">
+          <i class="bi bi-whatsapp"></i> Haz tu consulta
+        </a> 
+    </section>
+     
+    <div class="accordion acordeon bg-dark d-flex flex-column justify-content-start align-items-center" id="accordionExample"> <!--PREGUNTAS FRECUENTES--> 
+      <h2 class="txt text-center mb-4"><span class="txt">PREGUNTAS</span> FRECUENTES</h2>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="signo-pregunta-c txt">?</span>Qué es la licencia de Piloto Comercial de Avión (PCA)?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+              La licencia de piloto comercial, es el siguiente paso en la carrera de un piloto. Esta licencia requiere experiencia de vuelo y conocimientos teóricos avanzados.
+              Para obtener la licencia de piloto comercial de avión, con habilitación de vuelos por instrumentos, se debe registrar una experiencia de vuelo de 200hs (doscientas horas) de vuelo, siendo al menos 150hs (ciento cincuenta horas) al mando de la aeronave.
+              Una vez obtenida la licencia de Piloto Comercial de Avión c/HVI. el piloto puede comenzar a trabajar como tal, y lucrar con su licencia en la aviación general.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <span class="signo-pregunta-c txt">?</span>En qué consiste el curso de (PCA)?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+                El curso de PCA está compuesto por una parte teórica y una parte práctica <br><br>
+                CURSO TEÓRICO:<br>
+                Las asignaturas que se dictan en el curso de PCA son las siguientes: <br>
+                Aerodinámica<br>
+                Comunicación y Sistemas Radioeléctricos<br>
+                Entrenador Terrestre<br>
+                Factores Humanos<br>
+                Grupo Motopropulsor<br>
+                Instrumentos del Vuelo y del Motor<br>
+                Legislación y Reglamentación Aeronáutica<br>
+                Meteorología<br>
+                Navegación Aérea y Radioayudas<br>
+                Performance y Planificación de Vuelo<br>
+                Prevención de Accidentes<br>
+                Radiotelefonía<br>
+                Reglamento de Vuelo y Servicios de Tránsito Aéreo<br>
+                Supervivencia, Búsqueda y Salvamento<br>
+                Teoría de Vuelo por Instrumentos<br>
+                Transporte de Mercancías Peligrosas<br><br>
+                CURSO PRÁCTICO:<br>
+                Las clases prácticas se realizan en una aeronave Cessna 150 , apta para cumplir los estándares de instrucción. Se deberán cumplimentar con 200 horas de vuelo sin tiempo límite.
+                Dentro de las 200 horas de vuelo, se deben realizar las llamadas horas específicas<br>
+                Horas específicas:<br>
+                80 de navegación<br>
+                10 de nocturno<br>
+                30 de vuelo simulado por instrumentos 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="signo-pregunta-c txt">?</span>Qué requisitos necesito para iniciar el curso de (PCA)?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+              Ser mayor de 18 años de edad.<br>
+              Tener licencia de Piloto Privado de Avión<br>
+              Certificado analítico de estudios secundarios.<br>
+              Certificado Médico Aeronáutico Clase II (ANAC)<br>
+              Saber leer y escribir español.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              <span class="signo-pregunta-c txt">?</span>Qué requisitos extras para alumnos EXTRANJEROS?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+              Si.<br>
+              Los requisitos adicionales que se requieren para poder inscribirse en la carrera de piloto son los siguientes:<br>
+              Certificado de estudios secundarios apostillados por el tribunal de La Haya.<br>
+              Certificado de antecedentes penales en su país de origen apostillados por el tribunal de La Haya.<br>
+              Demostrar fondos suficientes para poder solventarse durante su estadía en la República Argentina.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+              <span class="signo-pregunta-c txt">?</span>Hay un tiempo límite para poder juntar las horas de vuelo? 
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+              A diferencia de la licencia inicial, la de piloto privado, no habría un tiempo máximo para poder juntar las 210 horas requeridas. Sería 100% ajustable a su ritmo. De igual manera, lo recomendable, sería poder hacerlo en 2, 3 años.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed txt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+              <span class="signo-pregunta-c txt">?</span>Qué salida laboral inmediata podría conseguir como PCA? 
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body txt">
+              Carga de pasajeros (vuelos bautismo), volar el avión de un privado, publicidad aérea, lanzamiento de paracaidistas, fotografía aérea, entre otras.
+            </div>
+          </div>
+        </div>
+      </div>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>    
+</body>
+</html>
