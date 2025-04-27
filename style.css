@@ -1,23 +1,23 @@
 /*AJUSTES BASICOS*/
-@font-face {
-  font-family: 'Gotham'; /* nombre que vos le pongas */
+/*@font-face {
+  font-family: 'Gotham'; 
   src: url('assets/Gotham-Book.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-/** {
+*/
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}*/
+}
 
 html, body {
   overflow-x: hidden;
   width: 100%;
 }
 body{
-  font-family: "Gotham", serif;
+  font-family: "Cantarell", serif;
 }
 
 .txt::selection{
