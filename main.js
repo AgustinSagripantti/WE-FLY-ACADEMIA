@@ -1,6 +1,6 @@
 //VARIABLES
 let navbar = document.getElementById("navbar");
-const text = "TU CARRERA AERONAUTICA EN TIEMPO RECORD";
+const text = "TU CARRERA AERONÁUTICA EN TIEMPO RÉCORD";
 const speed = 150; 
 let index = 0;
 let isDeleting = false;
